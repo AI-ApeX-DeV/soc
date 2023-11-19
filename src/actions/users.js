@@ -6,7 +6,7 @@ export const fetchAllUsers = () => async (dispatch) => {
     dispatch({ type: "FETCH_USERS", payload: data });
   } catch (error) {
     console.log(error);
-  }
+  }s
 };
 export const updateProfile = (_id, updateData) => async (dispatch) => {
   try {
